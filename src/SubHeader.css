@@ -1,0 +1,54 @@
+.subHeader {
+  height: 45px;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  background-color: rgb(39, 48, 66);
+  position: sticky;
+  top: 60px;
+  z-index: 200;
+}
+
+.subHeader__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(231, 231, 231);
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.subHeader__optionLineOne {
+  font-size: 10px;
+}
+
+.subHeader__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.subHeader__optionLocation {
+  display: flex;
+  color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.subHeader__optionLogoText {
+  display: flex;
+  flex-direction: column;
+}
+
+.subHeader__option:hover {
+  outline: 0.5px solid;
+  outline-color: white;
+  outline-offset: 7px;
+}
+
+.subHeader__optionLocation:hover {
+  outline: 0.5px solid;
+  outline-color: white;
+  outline-offset: 7px;
+}
